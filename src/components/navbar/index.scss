@@ -3,8 +3,5 @@
 @tailwind utilities;
 
 .Container{
-    background-color: yellowgreen;
-}
-.text{
-    @apply text-white;
+    @apply fixed bg-orange-300 shadow-2xl w-96 rounded-full h-14 bottom-10 items-center flex justify-around z-50;
 }
