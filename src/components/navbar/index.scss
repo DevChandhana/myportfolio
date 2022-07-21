@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 .Container{
-    @apply fixed bg-orange-300 shadow-2xl w-96 rounded-full h-14 bottom-10 items-center flex justify-around z-50;
+    background-color: #EF5B0C;
+    @apply fixed  shadow-2xl w-96 rounded-full h-14 bottom-10 items-center flex justify-around z-50;
 }

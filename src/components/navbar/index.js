@@ -6,11 +6,11 @@ import "./index.scss";
 const Navbar = () => {
   return (
     <div className="Container">
-      <AiFillHome size={"1.7em"} title="Home" />
-      <FaUserNinja size={"1.7em"} title="About" />
-      <AiFillFileText size={"1.7em"} title="Projects" />
-      <FaHeart size={"1.7em"} title="Interests" />
-      <AiFillMail size={"1.7em"} title="Contact" />
+      <AiFillHome size={"1.7em"} title="Home" color="white" />
+      <FaUserNinja size={"1.7em"} title="About" color="white" />
+      <AiFillFileText size={"1.7em"} title="Projects" color="white" />
+      <FaHeart size={"1.7em"} title="Interests" color="white" />
+      <AiFillMail size={"1.7em"} title="Contact" color="white" />
     </div>
   );
 };

@@ -9,7 +9,6 @@ function App() {
       <div className=" flex justify-center">
         <Navbar />
       </div>
-      <h1 className="text-white h-screen bg-slate-500">hello</h1>
       <Banner />
     </Fragment>
   );
