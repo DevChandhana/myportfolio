@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .banner{
-    @apply h-screen ;
+    @apply h-screen scrollbar-hide;
 }
 .heading{
     @apply flex flex-col items-center mt-10 text-white;

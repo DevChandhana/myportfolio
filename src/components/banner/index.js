@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./helpers/button";
+import Button from "../../helpers/button";
 import "./index.scss";
 import Dev from "../../assets/dev.jpg";
 const Banner = () => {
