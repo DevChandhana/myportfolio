@@ -1,16 +1,33 @@
-import { Fragment } from "react";
+import React from "react";
 import "./App.css";
 //components
 import Navbar from "./components/navbar/index";
 import Banner from "./components/banner/index";
+import PageLoader from "./components/pageload";
 function App() {
+  const [timer, setTimer] = React.useState(true);
+  React.useEffect(() => {
+    timeOut();
+    // eslint-disable-next-line
+  }, []);
+  const timeOut = () => {
+    setTimeout(() => {
+      setTimer(!timer);
+    }, 5000);
+  };
   return (
-    <Fragment className="">
-      <div className=" flex justify-center">
-        <Navbar />
-      </div>
-      <Banner />
-    </Fragment>
+    <div className="scrollbar-hide">
+      {timer ? (
+        <PageLoader />
+      ) : (
+        <>
+          <div className=" flex justify-center">
+            <Navbar />
+          </div>
+          <Banner />
+        </>
+      )}
+    </div>
   );
 }
 
