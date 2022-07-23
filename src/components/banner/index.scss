@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 .banner{
-    @apply h-screen scrollbar-hide;
+    @apply scrollbar-hide;
 }
 .heading{
-    @apply flex flex-col items-center mt-10 text-white;
+    @apply flex flex-col items-center mt-8 text-white;
 }
 .name{
     font-weight: 800;

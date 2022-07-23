@@ -5,9 +5,6 @@ const PageLoader = () => {
     loop: true,
     autoplay: true,
     animationData: Loader,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
   };
   return (
     <div className="h-screen w-screen bg-black">
