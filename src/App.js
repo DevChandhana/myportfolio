@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/navbar/index";
 import Banner from "./components/banner/index";
 import PageLoader from "./components/pageload";
+import About from "./components/about";
 function App() {
   const [timer, setTimer] = React.useState(true);
   React.useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
             <Navbar />
           </div>
           <Banner />
+          <About />
         </>
       )}
     </div>
