@@ -1,0 +1,15 @@
+.navbarContainer{
+    background-color: #0D0D0D;
+    @apply md:h-[90px] h-[40px] flex md:flex-row flex-col justify-around items-center w-screen; 
+}
+.components, p{
+    @apply flex mx-3 items-center ;
+}
+.name{
+    background: -webkit-linear-gradient(#FF6666,#35BDD0, #E07C24);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    @apply text-3xl font-bold -rotate-3 hidden md:flex;
+}
