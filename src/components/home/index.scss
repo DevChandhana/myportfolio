@@ -1,5 +1,5 @@
 .home{
- @apply flex flex-col-reverse md:flex-row md:h-[690px] h-auto
+ @apply flex flex-col-reverse md:flex-row md:h-screen h-auto bg-gray-800
 }
 .aboutBox{
     @apply md:w-[50%] w-screen flex items-center justify-center
@@ -13,5 +13,5 @@
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 green;
-    @apply object-contain md:h-[500px];
+    @apply object-contain md:h-[350px];
 }
