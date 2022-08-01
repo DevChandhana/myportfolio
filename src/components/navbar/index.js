@@ -1,16 +1,18 @@
-import { AiFillHome, AiFillFileText, AiFillMail } from "react-icons/ai";
-import { FaUserNinja, FaHeart } from "react-icons/fa";
-// import { MdWork } from "react-icons/md";
+import { FaGithub, FaDiscord } from "react-icons/fa";
 import "./index.scss";
-
 const Navbar = () => {
   return (
-    <div className="Container">
-      <AiFillHome size={"1.7em"} title="Home" color="white" />
-      <FaUserNinja size={"1.7em"} title="About" color="white" />
-      <AiFillFileText size={"1.7em"} title="Projects" color="white" />
-      <FaHeart size={"1.7em"} title="Interests" color="white" />
-      <AiFillMail size={"1.7em"} title="Contact" color="white" />
+    <div className="navbarContainer">
+      <h1 className="name">Chandhana Reddy</h1>
+      <div className="components">
+        <p>About</p>
+        <p>Projects</p>
+        <p>Contact</p>
+        <div className="flex">
+          <FaGithub />
+          <FaDiscord className="mx-1" />
+        </div>
+      </div>
     </div>
   );
 };
