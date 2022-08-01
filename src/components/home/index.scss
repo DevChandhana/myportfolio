@@ -1,0 +1,17 @@
+.home{
+ @apply flex flex-col-reverse md:flex-row md:h-[690px] h-auto
+}
+.aboutBox{
+    @apply md:w-[50%] w-screen flex items-center justify-center
+}
+.imageBox{
+    @apply md:w-[50%] w-screen flex items-center justify-center;
+}
+.img{
+    border-top-left-radius: 3rem 4rem;
+    border-bottom-right-radius: 3rem 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 green;
+    @apply object-contain md:h-[500px];
+}
