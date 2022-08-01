@@ -5,6 +5,8 @@ import "./App.css";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
 import Projects from "./components/projects";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 function App() {
   return (
     <Fragment>
@@ -13,6 +15,8 @@ function App() {
       </div>
       <Home />
       <Projects />
+      <Contact />
+      <Footer />
     </Fragment>
   );
 }

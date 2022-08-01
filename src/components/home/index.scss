@@ -1,6 +1,5 @@
 .home{
-    background-color: red;
- @apply flex flex-col-reverse md:flex-row md:h-screen h-auto
+ @apply flex flex-col-reverse md:flex-row md:h-screen h-auto bg-gray-800
 }
 .aboutBox{
     @apply md:w-[50%] w-screen flex items-center justify-center
