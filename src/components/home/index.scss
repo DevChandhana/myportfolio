@@ -1,8 +1,8 @@
 .home{
- @apply flex flex-col-reverse md:flex-row md:h-screen h-auto bg-gray-800
+ @apply flex flex-col-reverse md:flex-row md:h-screen h-auto;
 }
 .aboutBox{
-    @apply md:w-[50%] w-screen flex items-center justify-center
+    @apply md:w-[50%] w-screen flex flex-col items-center justify-center my-20 md:my-0
 }
 .imageBox{
     @apply md:w-[50%] w-screen flex items-center justify-center;
@@ -14,4 +14,10 @@
     border-bottom-left-radius: 1rem;
     box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 green;
     @apply object-contain md:h-[350px];
+}
+.desc{
+    @apply text-center mx-7 mt-4 text-white text-sm opacity-50;
+}
+.heading{
+    @apply text-center text-white text-3xl;
 }

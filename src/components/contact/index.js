@@ -1,8 +1,12 @@
 import React from "react";
+import "./index.scss";
 const Contact = () => {
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-orange-500">
-      <h1>Im contact me section</h1>
+    <div className="contactBox">
+      <h1 className="heading">Contact Me</h1>
+      <div>
+        <input type="text" className="input" placeholder="Enter name" />
+      </div>
     </div>
   );
 };

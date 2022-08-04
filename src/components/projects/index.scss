@@ -3,6 +3,7 @@
     flex-direction: row;
     display:flex;
     width:100vw;
+    justify-content: center;
     @apply  h-auto
 }
 .projBox{
@@ -10,4 +11,13 @@
     width: 300px;
     margin:2%;
     background-color:wheat;
+    @apply rounded-lg;
+}
+.projImg{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    @apply object-contain
+}
+.heading{  
+    @apply my-5 font-bold text-2xl text-center
 }
